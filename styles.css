@@ -1,0 +1,77 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #FFD700;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.digimon-container {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.digimon-card {
+    width: 200px;
+    background: #222;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+.digimon-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.desc {
+    font-size: 0.9em;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.stats {
+    display: flex;
+    flex-direction:row;
+    gap: 10px;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.stats span {
+    display: block;
+    font-weight: bold;
+}
+
+.atk {
+    color: red;
+}
+
+.lp {
+    color: #00ff00;
+}
+
+/* Efeitos Neon */
+.digiTama { box-shadow: 0px 0px 10px #ffaa00; }
+.in-training { box-shadow: 0px 0px 10px #00ff00; }
+.rookie { box-shadow: 0px 0px 10px #ff9900; }
+.champion { box-shadow: 0px 0px 10px #ff00ff; }
+.ultimate { box-shadow: 0px 0px 10px #00ffff; }
+.mega { box-shadow: 0px 0px 10px #ffff00; }
