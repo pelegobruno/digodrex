@@ -1,3 +1,33 @@
+function showTab(tabName) {
+    document.querySelectorAll('.content').forEach(section => {
+        section.classList.add('hidden');
+    });
+
+    document.getElementById(tabName).classList.remove('hidden');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*digimon*/
 const digimonData = [
     {
         category: "Agumon Line (Tai)",
