@@ -82,6 +82,28 @@ h1 {
 
 
 
+
+
+
+/*centralize e justifiaque o texto inicial*/
+.hero {
+    text-align: center; /* Centraliza o conteúdo */
+    max-width: 800px; /* Define uma largura máxima */
+    margin: 0 auto; /* Centraliza a seção na página */
+}
+.hero p {
+    text-align: justify; /* Justifica o texto */
+}
+
+
+
+
+
+
+
+
+
+
 /*novos recursos de ideas*/
 /* Estilos Gerais */
 body {
