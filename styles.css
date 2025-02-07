@@ -69,12 +69,100 @@ h1 {
 }
 
 /* Efeitos Neon */
-.digiTama { box-shadow: 0px 0px 10px #ffaa00; }
+.digiTama { box-shadow: 0px 0px 10px pink; }
 .in-training { box-shadow: 0px 0px 10px #00ff00; }
 .rookie { box-shadow: 0px 0px 10px #ff9900; }
 .champion { box-shadow: 0px 0px 10px #ff00ff; }
 .ultimate { box-shadow: 0px 0px 10px #00ffff; }
 .mega { box-shadow: 0px 0px 10px #ffff00; }
+
+
+
+
+
+
+
+
+
+
+
+/*Treinadores de digimon*/
+
+.trainer-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.trainer-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trainer-card {
+    width: 150px;
+    background: #222;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.trainer-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px rgba(255, 255, 0, 0.8);
+}
+
+.trainer-card img {
+    width: 90%;
+    border-radius: 8px;
+}
+
+.trainer-card h3 {
+    margin-top: 20px;
+    color: #FFD700;
+}
+
+.trainer-card p {
+    color: white;
+    font-size: 0.9em;
+}
+
+.trainer-card .crest {
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Neon por treinador */
+.trainer-card.courage { box-shadow: 0 0 15px orange; }  /* Tai - Amarelo */
+.trainer-card.friendship { box-shadow: 0 0 15px #0000FF; } /* Matt - Azul */
+.trainer-card.love { box-shadow: 0 0 15px #FF0000; }       /* Sora - Vermelho */
+.trainer-card.knowledge { box-shadow: 0 0 15px #800080; }  /* Izzy - Roxo */
+.trainer-card.sincerity { box-shadow: 0 0 15px #00FF00; }  /* Mimi - Verde */
+.trainer-card.reliability { box-shadow: 0 0 15px #808080; } /* Joe - Cinza */
+.trainer-card.hope { box-shadow: 0 0 15px yellow ; }       /* T.K. - Rosa */
+.trainer-card.light { box-shadow: 0 0 15px pink; }      /* Kari - Branco */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -113,6 +201,27 @@ h1 {
     font-weight: bold;
     font-family: 'Pixel Digivolve', sans-serif; /* Aplica a fonte ao título */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -239,34 +348,4 @@ body {
 
 .card:hover .card-back {
     display: block;
-}
-
-/* Estilização para Digimon, ThunderCats e CDZ */
-.digimon-card { box-shadow: 0px 0px 10px #00ff00; }
-.thundercats-card { box-shadow: 0px 0px 10px #ff8000; }
-.cdz-card { box-shadow: 0px 0px 10px #0073e6; }
-
-/* Ajuste para Estatísticas */
-.stats {
-    display: flex;
-    justify-content: space-between;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 5px;
-    margin-top: 10px;
-    font-size: 0.9em;
-}
-
-.stats .atk {
-    color: red;
-    font-weight: bold;
-}
-
-.stats .def {
-    color: white;
-    font-weight: bold;
-}
-
-.stats .lp {
-    color: yellow;
-    font-weight: bold;
 }
